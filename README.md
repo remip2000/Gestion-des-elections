@@ -12,20 +12,23 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
 
 ## 🔧 Fonctionnalités principales
 
-- **Feuilles par bureau** (`Bureau 1`, `Bureau 2`, ..., `Bureau 12`) pour saisir :
-  - Le suivi de la participation heure par heure
-  - Le dépouillement des bulletins
-  ![Aperçu du tableur](./Capture%20d’écran%20Bureau%20exemple.png)
 - **Feuille "Synthèse"** :
   - Agrégation automatique des résultats de tous les bureaux
   - Calculs de participation, taux d’abstention, votes exprimés
   - Vérifications des totaux
     ![Aperçu du tableur](./Capture%20d’écran%20Synthèse.png)
+    
+- **Feuilles par bureau** (`Bureau 1`, `Bureau 2`, ..., `Bureau 12`) pour saisir :
+  - Le suivi de la participation heure par heure
+  - Le dépouillement des bulletins
+  ![Aperçu du tableur](./Capture%20d’écran%20Bureau%20exemple.png)
+
 - **Feuille "Participation horaire"** :
   - Suivi de la participation par tranche horaire dans chaque bureau
   - Calcul des pourcentages de participation cumulée
   - Comparaison possible avec le tour précdent
     ![Aperçu du tableur](./Capture%20d’écran%20Participation%20horaire.png)
+    
 - **Macros intégrées** (nécessite l’activation) :
   - Automatisations pour l'instanciation initiale du fichier
   - Générer les bureaux sur le modèle de `Bureau 0`
@@ -42,15 +45,15 @@ L'utilisateur __ne peut et ne doit__ modifier que les cases 🟦 **bleu clair** 
 
 0. **Activer les macros** à l’ouverture du fichier Excel. *Utile mais pas nécessaire pour l'utilisation*.
 1. Pour le bureau centralisateur :
-   - Ouvrir l'onglet "Synthèse"
+   - Ouvrir l'onglet *Synthèse*
    - Renseigner les données de l'élection (noms des bureaux, nombre d'inscrits, date, élection, ville)
    - Renseigner le nom des candidats et leur couleur associée. Le bouton
-3. Pour chaque bureau :
+2. Pour chaque bureau :
    - Ouvrir l’onglet correspondant (ex: *Bureau 5*)
    - Pendant la journée, renseigner les données de participation horaire à droite de la feuille
    - Au dépouillement, remplir les cases avec les résultats au fur et à mesure des enveloppes de centaines de bulletins dépouillés
-4. Visualiser la progression de la participation dans *Participation horaire*.
-5. **Suivre en temps réel la synthèse** dans l’onglet *Synthèse*. Toutes les données des bureaux sont centralisées dans *Synthèse*
+3. Pendant la journée, visualiser la progression de la participation dans *Participation horaire*.
+4. **Suivre le dépouillement en temps réel la synthèse** dans l’onglet *Synthèse*. Toutes les données des bureaux sont centralisées dans *Synthèse*
 
 ### Dépouillement : deux méthodes possibles
 
