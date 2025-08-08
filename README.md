@@ -6,7 +6,9 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
 
 **Tableur :** [`Elections Cogolin.xlsm`](./Elections%20Cogolin%20v1.12.xlsm)
 
-**Feuille de dépouillement :** [`Feuille_depouillement.xlsm`](./Feuille_depouillement.xlsx)
+**Feuille de dépouillement :** 
+ - [`Mode relatif`](./Feuille_depouillement%20relatif.xlsx)
+ - [`Mode absolu`](./Feuille_depouillement%20absolu.xlsx)
 
 ---
 
@@ -65,14 +67,15 @@ Le tableur est conçu pour que chaque bureau de vote ouvre ce même fichier et y
 
 ### 🗳️ Dépouillement : deux méthodes possibles
 
-On propose une [`feuille de dépouillement`](./Feuille_depouillement.xlsx) à imprimer en A3 portrait pour aider les scrutateurs à compter les bulletins.
+On propose une feuille de dépouillement en mode  à imprimer en A3 portrait pour aider les scrutateurs à compter les bulletins.
 
-![Aperçu de la feuille de dépouillement](./Images/Capture%20d’écran%20feuille%20dépouillement%20exemple.png)
-
-1. **Décompte absolu** : On remplit le tableau du bas, table par table. Les scores des candidats sont croissants d'enveloppe (de centaine) en enveloppe et le calcul des scores par centaines se fait automatiquement dans le tableau du haut. Ce mode évite aux scrutateurs de faire des calculs à chaque centaine. La somme est cumulative de centaine en centaine.
+1. **Décompte absolu** : On remplit le tableau du bas, table par table. Les scores (absolus) des candidats sont croissants d'enveloppe (de centaine) en enveloppe et le calcul des scores par centaines (relatif) se fait automatiquement dans le tableau du haut. Ce mode évite aux scrutateurs d'avoir à faire des calculs à chaque centaine. La somme est cumulative de centaine en centaine, c'est à dire qu'on ajoute le score de la centaine précédente à celui de la centaine actuelle.
 [`Exemple en mode absolu`](./Exemple/Feuille_depouillement%20exemple%20absolu.pdf)
-2. **Décompte relatif** : On remplit le tableau du haut directement. On entre les scores relatif à la centaine dépouillée. La somme de chaque centaine doit être égale à 100.
+![Aperçu de la feuille de dépouillement](./Images/Capture%20d’écran%20feuille%20dépouillement%20exemple%20absolu.png)
+
+2. **Décompte relatif** : On remplit le tableau du haut directement. On entre les scores relatif à la centaine dépouillée. La somme de chaque centaine doit être égale à 100 et on repart à 0 à chaque nouvelle centaine.
 [`Exemple en mode relatif`](./Exemple/Feuille_depouillement%20exemple%20relatif.pdf)
+![Aperçu de la feuille de dépouillement](./Images/Capture%20d’écran%20feuille%20dépouillement%20exemple%20relatif.png)
 
 ---
 
