@@ -4,7 +4,7 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
 
 ## 📁 Fichiers
 
-**Tableur :** [`Elections Cogolin.xlsm`](./Elections%20Cogolin%20v1.12.xlsm)
+**Tableur de suivi :** [`Elections Cogolin.xlsm`](./Elections%20Cogolin%20v1.12.xlsm)
 
 **Feuille de dépouillement :** 
  - [`Mode relatif`](./Feuille_depouillement%20relatif.xlsx)
@@ -54,28 +54,28 @@ Le tableur est conçu pour que chaque bureau de vote ouvre ce même fichier et y
 ## 🧑‍💻 Utilisation
 
 0. **Activer les macros** à l’ouverture du fichier Excel. *Utile mais pas nécessaire pour l'utilisation*.
-1. Pour le bureau centralisateur :
+1. Pour le **bureau centralisateur** :
    - Ouvrir l'onglet *Synthèse*
    - Renseigner les données de l'élection (noms des bureaux, nombre d'inscrits, date, élection, ville)
-   - Renseigner le nom des candidats et leur couleur associée. Le bouton
-2. Pour chaque bureau :
+   - Renseigner le nom des candidats et leur couleur associée.
+2. Pour **chaque bureau de vote** :
    - Ouvrir l’onglet correspondant (ex: *Bureau 5*)
-   - Pendant la journée, renseigner les données de participation horaire à droite de la feuille
+   - Pendant la journée, renseigner les données de **participation horaire** à droite de la feuille
    - Au dépouillement, remplir les cases avec les résultats au fur et à mesure des enveloppes de centaines de bulletins dépouillés
 3. Pendant la journée, visualiser la progression de la participation dans *Participation horaire*.
 4. **Suivre le dépouillement en temps réel la synthèse** dans l’onglet *Synthèse*. Toutes les données des bureaux sont centralisées dans *Synthèse*
 
 ### 🗳️ Dépouillement : deux méthodes possibles
 
-On propose une feuille de dépouillement en mode  à imprimer en A3 portrait pour aider les scrutateurs à compter les bulletins.
+On propose deux versions de la feuille de dépouillement à imprimer en A3 portrait pour aider les scrutateurs à compter les bulletins. Chaque table de dépouillement remplit sa feuille en deux exemplaires (deux scrutateurs par table). Chaque bureau remplit ses résultats de dépouillement dans son onglet (ex: *Bureau 5*), deux méthodes s'offrent à lui :
 
-1. **Décompte absolu** : On remplit le tableau du bas, table par table. Les scores (absolus) des candidats sont croissants d'enveloppe (de centaine) en enveloppe et le calcul des scores par centaines (relatif) se fait automatiquement dans le tableau du haut. Ce mode évite aux scrutateurs d'avoir à faire des calculs à chaque centaine. La somme est cumulative de centaine en centaine, c'est à dire qu'on ajoute le score de la centaine précédente à celui de la centaine actuelle.
-[`Exemple en mode absolu`](./Exemple/Feuille_depouillement%20exemple%20absolu.pdf)
+1. **Décompte absolu** (préféré) : On remplit le tableau **en dessous** du graphique, table par table. Les scores (absolus) des candidats sont croissants d'enveloppe (de centaine) en enveloppe et le calcul des scores par centaines (relatif) se fait automatiquement dans le tableau du haut. Ce mode évite aux scrutateurs d'avoir à faire des calculs à chaque centaine. La somme est cumulative de centaine en centaine, c'est à dire qu'on ajoute le score de la centaine précédente à celui de la centaine actuelle.
 ![Aperçu de la feuille de dépouillement](./Images/Capture%20d’écran%20feuille%20dépouillement%20exemple%20absolu.png)
+![Tableau du bas](./Images/Exemple-dépouillement-absolu.png)
 
-2. **Décompte relatif** : On remplit le tableau du haut directement. On entre les scores relatif à la centaine dépouillée. La somme de chaque centaine doit être égale à 100 et on repart à 0 à chaque nouvelle centaine.
-[`Exemple en mode relatif`](./Exemple/Feuille_depouillement%20exemple%20relatif.pdf)
+2. **Décompte relatif** : On remplit le tableau **au dessus** directement. On entre les scores qui sont relatifs à la centaine dépouillée. La somme de chaque centaine doit être égale à 100 et on repart à 0 à chaque nouvelle centaine.
 ![Aperçu de la feuille de dépouillement](./Images/Capture%20d’écran%20feuille%20dépouillement%20exemple%20relatif.png)
+![Tableau du haut](./Images/Exemple-dépouillement-relatif.png)
 
 ---
 
