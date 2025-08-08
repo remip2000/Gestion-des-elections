@@ -94,3 +94,30 @@ L’onglet `Exemple` montre comment renseigner les données pour un bureau ficti
 ## 📄 Licence
 
 Ce projet est sous licence **GNU General Public License v3.0** – voir le fichier [`LICENSE`](./LICENSE) pour plus d’informations.
+
+---
+
+## 🔮 Évolutions à venir
+
+Des améliorations futures sont envisagées pour rendre ce tableur encore plus flexible, sécurisé et complet :
+
+- 🔢 **Gestion dynamique du nombre de bureaux**  
+  Permettre à l’utilisateur de choisir combien de bureaux seront créés.
+
+- 👤 **Gestion dynamique du nombre de candidats**  
+  Adapter automatiquement les tableaux et les graphiques en fonction du nombre de candidats saisis.
+
+- 🔒 **Protection renforcée entre les bureaux**  
+  Empêcher les agents d’un bureau de modifier les résultats d’un autre bureau (par mot de passe, ou séparation par fichier).
+
+- 🖨️ **Export automatique d’un récapitulatif PDF**  
+  Générer un document lisible et clair pour affichage en mairie ou en salle des résultats.
+
+- 🧪 **Mode test/simulation**  
+  Intégrer un mode de démonstration pour simuler des élections fictives avec des résultats aléatoires.
+
+- 📈 **Analyse comparative avec les précédentes élections**  
+  Compléter la macro permettant de comparer les taux de participation par l'ajout des résultats des scrutins passés.
+
+Contributions et suggestions bienvenues via issues ou pull requests ! 🙂
+
