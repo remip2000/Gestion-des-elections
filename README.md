@@ -1,6 +1,6 @@
-# 🗳️ Élections Cogolin – Tableur de Suivi des Résultats
+# 🗳️ Tableur de Suivi des élections
 
-Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centraliser les résultats d'une élection municipale à Cogolin**, bureau par bureau. Il facilite le **dépouillement, la saisie, l’analyse des résultats** et le **suivi de la participation horaire**.
+Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centraliser les résultats d'une élection municipale à Cogolin (Var)**, bureau par bureau. Il facilite le **dépouillement, la saisie, l’analyse des résultats** et le **suivi de la participation horaire**.
 
 ## 📁 Fichier
 **Nom :** [`Elections Cogolin v1.12.xlsm`](./Elections%20Cogolin%20v1.12.xlsm)
@@ -16,24 +16,26 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
   - Agrégation automatique des résultats de tous les bureaux
   - Calculs de participation, taux d’abstention, votes exprimés
   - Vérifications des totaux
-    ![Aperçu du tableur](./Capture%20d’écran%20Synthèse.png)
+    
+    ![Aperçu de la feuille Synthèse](./Capture%20d’écran%20Synthèse.png)
     
 - **Feuilles par bureau** (`Bureau 1`, `Bureau 2`, ..., `Bureau 12`) pour saisir :
   - Le suivi de la participation heure par heure
   - Le dépouillement des bulletins
-  ![Aperçu du tableur](./Capture%20d’écran%20Bureau%20exemple.png)
+    
+  ![Aperçu de la feuille Bureau](./Capture%20d’écran%20Bureau%20exemple.png)
 
 - **Feuille "Participation horaire"** :
   - Suivi de la participation par tranche horaire dans chaque bureau
   - Calcul des pourcentages de participation cumulée
   - Comparaison possible avec le tour précdent
-    ![Aperçu du tableur](./Capture%20d’écran%20Participation%20horaire.png)
     
-- **Macros intégrées** (nécessite l’activation) :
-  - Automatisations pour l'instanciation initiale du fichier
-  - Générer les bureaux sur le modèle de `Bureau 0`
+    ![Aperçu de la feuille Participation horaire](./Capture%20d’écran%20Participation%20horaire.png)
+    
+- **Macros intégrées facultatives** (nécessite l’activation) Automatisations pour l'instanciation initiale du fichier :
+  - Générer les 12 bureaux sur le modèle de `Bureau 0`
   - Répliquer la couleur des candidats dans tous les graphiques
-  - Importer les données de participation du premier tour
+  - Importer les données de participation horaire du premier tour
 
 ---
 
@@ -85,7 +87,7 @@ L’onglet `Exemple` montre comment renseigner les données pour un bureau ficti
 
 - Ce classeur a été développé pour une élection municipale mais peut être adapté à d'autres scrutins.
 - Les noms des candidats peuvent être modifiés directement dans les feuilles.
-- Ce projet n’inclut pas de protection par mot de passe mais certaines feuilles peuvent être protégées par macro pour éviter les erreurs de saisie.
+- Ce projet n’inclut une protection par mot de passe dans certaines feuilles pour éviter les erreurs de saisie.
 
 ---
 
