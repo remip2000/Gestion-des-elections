@@ -17,20 +17,20 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
   - Calculs de participation, taux d’abstention, votes exprimés
   - Vérifications des totaux
     
-    ![Aperçu de la feuille Synthèse](./Capture%20d’écran%20Synthèse.png)
+    ![Aperçu de la feuille Synthèse](./Images/Capture%20d’écran%20Synthèse.png)
     
 - **Feuilles par bureau** (`Bureau 1`, `Bureau 2`, ..., `Bureau 12`) pour saisir :
   - Le suivi de la participation heure par heure
   - Le dépouillement des bulletins
     
-  ![Aperçu de la feuille Bureau](./Capture%20d’écran%20Bureau%20exemple.png)
+  ![Aperçu de la feuille Bureau](./Images/Capture%20d’écran%20Bureau%20exemple.png)
 
 - **Feuille "Participation horaire"** :
   - Suivi de la participation par tranche horaire dans chaque bureau
   - Calcul des pourcentages de participation cumulée
   - Comparaison possible avec le tour précdent
     
-    ![Aperçu de la feuille Participation horaire](./Capture%20d’écran%20Participation%20horaire.png)
+    ![Aperçu de la feuille Participation horaire](./Images/Capture%20d’écran%20Participation%20horaire.png)
     
 - **Macros intégrées facultatives** (nécessite l’activation) Automatisations pour l'instanciation initiale du fichier :
   - Générer les 12 bureaux sur le modèle de `Bureau 0`
@@ -62,9 +62,9 @@ L'utilisateur __ne peut et ne doit__ modifier que les cases 🟦 **bleu clair** 
 On propose une [`feuille de dépouillement`](./Feuille_depouillement.xlsx) à imprimer en A3 portrait pour aider les scrutateurs à compter les bulletins.
 
 1. **Décompte absolu** : On remplit le tableau du bas, table par table. Les scores des candidats sont croissants d'enveloppe (de centaine) en enveloppe et le calcul des scores par centaines se fait automatiquement dans le tableau du haut. Ce mode évite aux scrutateurs de faire des calculs à chaque centaine. La somme est cumulative de centaine en centaine.
-[`Exemple en mode absolu`](./Feuille_depouillement%20exemple%20absolu.pdf)
+[`Exemple en mode absolu`](./Exemple/Feuille_depouillement%20exemple%20absolu.pdf)
 2. **Décompte relatif** : On remplit le tableau du haut directement. On entre les scores relatif à la centaine dépouillée. La somme de chaque centaine doit être égale à 100.
-[`Exemple en mode relatif`](./Feuille_depouillement%20exemple%20relatif.pdf)
+[`Exemple en mode relatif`](./Exemple/Feuille_depouillement%20exemple%20relatif.pdf)
 
 ---
 
