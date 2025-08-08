@@ -61,6 +61,8 @@ L'utilisateur __ne peut et ne doit__ modifier que les cases 🟦 **bleu clair** 
 
 On propose une [`feuille de dépouillement`](./Feuille_depouillement.xlsx) à imprimer en A3 portrait pour aider les scrutateurs à compter les bulletins.
 
+![Aperçu de la feuille de dépouillement](./Images/Capture%20d’écran%20feuille%20dépouillement%20exemple.png)
+
 1. **Décompte absolu** : On remplit le tableau du bas, table par table. Les scores des candidats sont croissants d'enveloppe (de centaine) en enveloppe et le calcul des scores par centaines se fait automatiquement dans le tableau du haut. Ce mode évite aux scrutateurs de faire des calculs à chaque centaine. La somme est cumulative de centaine en centaine.
 [`Exemple en mode absolu`](./Exemple/Feuille_depouillement%20exemple%20absolu.pdf)
 2. **Décompte relatif** : On remplit le tableau du haut directement. On entre les scores relatif à la centaine dépouillée. La somme de chaque centaine doit être égale à 100.
