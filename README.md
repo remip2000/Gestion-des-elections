@@ -2,11 +2,11 @@
 
 Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centraliser les résultats d'une élection municipale à Cogolin (Var)**, bureau par bureau. Il facilite le **dépouillement, la saisie, l’analyse des résultats** et le **suivi de la participation horaire**.
 
-## 📁 Fichier
-**Nom :** [`Elections Cogolin v1.12.xlsm`](./Elections%20Cogolin%20v1.12.xlsm)
+## 📁 Fichiers
 
-**Version :** 1.12  
-**Compatibilité :** Microsoft Excel avec macros activées (format `.xlsm`)
+**Tableur :** [`Elections Cogolin.xlsm`](./Elections%20Cogolin%20v1.12.xlsm)
+
+**Feuille de dépouillement :** [`Feuille_depouillement.xlsm`](./Feuille_depouillement.xlsx)
 
 ---
 
@@ -39,9 +39,15 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
 
 ---
 
-## Protection des feuilles
+## 🔒 Protection des feuilles
 
 L'utilisateur __ne peut et ne doit__ modifier que les cases 🟦 **bleu clair** 🟦. Toutes les cases ⬜ **gris clair** ⬜ sont calculées automatiquement. Si vous voulez adapter le fichier, le mot de passe de protection de chaque feuille est `toto`.
+
+---
+
+## 💻 Pré-requis bureautique
+
+Le tableur est conçu pour que chaque bureau de vote ouvre ce même fichier et y contribue en direct. Il faut donc disposer d'une solution informatique (postes de travail, licences Excel et réseau) compatible avec cette utilisation. A défaut, il faudrait recourir à un autre moyen de communication classique (téléphone, sms) et l'intêret du tableur resterait limité au bureau centralisateur pour les calculs automatiques.
 
 ## 🧑‍💻 Utilisation
 
@@ -57,7 +63,7 @@ L'utilisateur __ne peut et ne doit__ modifier que les cases 🟦 **bleu clair** 
 3. Pendant la journée, visualiser la progression de la participation dans *Participation horaire*.
 4. **Suivre le dépouillement en temps réel la synthèse** dans l’onglet *Synthèse*. Toutes les données des bureaux sont centralisées dans *Synthèse*
 
-### Dépouillement : deux méthodes possibles
+### 🗳️ Dépouillement : deux méthodes possibles
 
 On propose une [`feuille de dépouillement`](./Feuille_depouillement.xlsx) à imprimer en A3 portrait pour aider les scrutateurs à compter les bulletins.
 
