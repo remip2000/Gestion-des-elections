@@ -1,3 +1,5 @@
+<img src="./Images/Logo2.png" alt="Logo du projet" width="200">
+
 # 🗳️ Tableur de Suivi des élections
 
 Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centraliser les résultats d'une élection municipale à Cogolin (Var)**, bureau par bureau. Il facilite le **dépouillement, la saisie, l’analyse des résultats** et le **suivi de la participation horaire**.
