@@ -53,6 +53,8 @@ L'utilisateur __ne peut et ne doit__ modifier que les cases 🟦 **bleu clair** 
 
 Le tableur est conçu pour que chaque bureau de vote ouvre ce même fichier et y contribue en direct. Il faut donc disposer d'une solution informatique (postes de travail, licences Excel et réseau) compatible avec cette utilisation. A défaut, il faudrait recourir à un autre moyen de communication classique (téléphone, sms) et l'intêret du tableur resterait limité au bureau centralisateur pour les calculs automatiques.
 
+![Architecture réseau](./Images/archi-reseau.png)
+
 ## 🧑‍💻 Utilisation
 
 0. **Activer les macros** à l’ouverture du fichier Excel. *Utile mais pas nécessaire pour l'utilisation*.
@@ -72,10 +74,12 @@ Le tableur est conçu pour que chaque bureau de vote ouvre ce même fichier et y
 On propose deux versions de la feuille de dépouillement à imprimer en A3 portrait pour aider les scrutateurs à compter les bulletins. Chaque table de dépouillement remplit sa feuille en deux exemplaires (deux scrutateurs par table). Chaque bureau remplit ses résultats de dépouillement dans son onglet (ex: *Bureau 5*), deux méthodes s'offrent à lui :
 
 1. **Décompte absolu** (préféré) : On remplit le tableau **en dessous** du graphique, table par table. Les scores (absolus) des candidats sont croissants d'enveloppe (de centaine) en enveloppe et le calcul des scores par centaines (relatif) se fait automatiquement dans le tableau du haut. Ce mode évite aux scrutateurs d'avoir à faire des calculs à chaque centaine. La somme est cumulative de centaine en centaine, c'est à dire qu'on ajoute le score de la centaine précédente à celui de la centaine actuelle.
+2. 
 ![Aperçu de la feuille de dépouillement](./Images/Capture%20d’écran%20feuille%20dépouillement%20exemple%20absolu.png)
 ![Tableau du bas](./Images/Exemple-dépouillement-absolu.png)
 
-2. **Décompte relatif** : On remplit le tableau **au dessus** directement. On entre les scores qui sont relatifs à la centaine dépouillée. La somme de chaque centaine doit être égale à 100 et on repart à 0 à chaque nouvelle centaine.
+3. **Décompte relatif** : On remplit le tableau **au dessus** directement. On entre les scores qui sont relatifs à la centaine dépouillée. La somme de chaque centaine doit être égale à 100 et on repart à 0 à chaque nouvelle centaine.
+4. 
 ![Aperçu de la feuille de dépouillement](./Images/Capture%20d’écran%20feuille%20dépouillement%20exemple%20relatif.png)
 ![Tableau du haut](./Images/Exemple-dépouillement-relatif.png)
 
