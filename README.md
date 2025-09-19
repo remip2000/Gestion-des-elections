@@ -6,7 +6,7 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
 
 ## 📁 Fichiers
 
-**Tableur de suivi :** [`Elections Cogolin.xlsm`](./Elections%20Cogolin%20v1.12.xlsm)
+**Tableur de suivi :** [`Elections Cogolin.xlsm`](./Elections%20Cogolin.xlsm)
 
 **Feuille de dépouillement :** 
  - [`Mode relatif`](./Feuille_depouillement%20relatif.xlsx)
