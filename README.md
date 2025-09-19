@@ -58,13 +58,13 @@ Le tableur est conçu pour que chaque bureau de vote ouvre ce même fichier et y
 ## 🧑‍💻 Utilisation
 
 0. **Activer les macros** à l’ouverture du fichier Excel. *Utile mais pas nécessaire pour l'utilisation*.
-1. Pour le **bureau centralisateur** :
+1. Pour le **bureau centralisateur**, avant le début du scrutin:
    - Ouvrir l'onglet *Synthèse*
    - Renseigner les données de l'élection (noms des bureaux, nombre d'inscrits, date, élection, ville)
    - Renseigner le nom des candidats et leur couleur associée.
 2. Pour **chaque bureau de vote** :
    - Ouvrir l’onglet correspondant (ex: *Bureau 5*)
-   - Pendant la journée, renseigner les données de **participation horaire** à droite de la feuille
+   - Pendant la journée du vote, renseigner les données de **participation horaire** à droite de la feuille
    - Au dépouillement, remplir les cases avec les résultats au fur et à mesure des enveloppes de centaines de bulletins dépouillés
 3. Pendant la journée, visualiser la progression de la participation dans *Participation horaire*.
 4. **Suivre le dépouillement en temps réel la synthèse** dans l’onglet *Synthèse*. Toutes les données des bureaux sont centralisées dans *Synthèse*
@@ -103,8 +103,9 @@ L’onglet `Exemple` montre comment renseigner les données pour un bureau ficti
 ## 📌 À savoir
 
 - Ce classeur a été développé pour une élection municipale mais peut être adapté à d'autres scrutins.
-- Les noms des candidats peuvent être modifiés directement dans les feuilles.
-- Ce projet n’inclut une protection par mot de passe dans certaines feuilles pour éviter les erreurs de saisie.
+- Les noms des candidats peuvent être modifiés directement dans la feuille synthèse et seront automatiquement recopiés partout.
+- Les noms des bureaux de vote également.
+- Ce tableur inclut une protection par mot de passe dans certaines feuilles pour éviter les erreurs de saisie (mdp par défaut = `toto`).
 
 ---
 
