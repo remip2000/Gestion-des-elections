@@ -122,9 +122,6 @@ Des améliorations futures sont envisagées pour rendre ce tableur encore plus f
 - 🔢 **Gestion dynamique du nombre de bureaux**  
   Permettre à l’utilisateur de choisir combien de bureaux seront créés.
 
-- 👤 **Gestion dynamique du nombre de candidats**  
-  Adapter automatiquement les tableaux et les graphiques en fonction du nombre de candidats saisis.
-
 - 🔒 **Protection renforcée entre les bureaux**  
   Empêcher les agents d’un bureau de modifier les résultats d’un autre bureau (par mot de passe, ou séparation par fichier).
 
