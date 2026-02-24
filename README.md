@@ -8,7 +8,7 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
 
 **Tableur de suivi :** [`Elections Cogolin.xlsm`](./Elections%20Cogolin.xlsm)
 
-**Feuille de dépouillement :** 
+**Feuille de dépouillement** :
  - [`Mode relatif`](./Feuille_depouillement%20relatif.xlsx)
  - [`Mode absolu`](./Feuille_depouillement%20absolu.xlsx)
 
@@ -22,6 +22,13 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
   - Vérifications des totaux
     
     ![Aperçu de la feuille Synthèse](./Images/Capture%20d’écran%20Synthèse.png)
+
+- **Feuille "Projection"** :
+  - Conçue pour présenter en direct au public des données clées
+  - Taux de participation pendant la journée
+  - Suivi en direct du dépouillement
+    
+    ![Aperçu de la feuille Projection](./Images/Projection%20Dépouillement.png)
     
 - **Feuilles par bureau** (`Bureau 1`, `Bureau 2`, ..., `Bureau 12`) pour saisir :
   - Le suivi de la participation heure par heure
@@ -67,7 +74,7 @@ Le tableur est conçu pour que chaque bureau de vote ouvre ce même fichier et y
    - Pendant la journée du vote, renseigner les données de **participation horaire** à droite de la feuille
    - Au dépouillement, remplir les cases avec les résultats au fur et à mesure des enveloppes de centaines de bulletins dépouillés
 3. Pendant la journée, visualiser la progression de la participation dans *Participation horaire*.
-4. **Suivre le dépouillement en temps réel la synthèse** dans l’onglet *Synthèse*. Toutes les données des bureaux sont centralisées dans *Synthèse*
+4. **Suivre le dépouillement en temps réel** dans l’onglet *Projection*. Toutes les données des bureaux sont centralisées dans *Synthèse* mais la version simplifiée dans *Projection* est plus lisible et conçue pour être projetée sur écran.
 
 ### 🗳️ Dépouillement : deux méthodes possibles
 
