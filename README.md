@@ -64,6 +64,14 @@ Le tableur est conçu pour que chaque bureau de vote ouvre ce même fichier et y
 
 ## 🧑‍💻 Utilisation
 
+⚠️ Règle d’or : **seules les cellules bleu clair sont modifiables**
+🔵 Bleu clair = vous pouvez saisir des données.
+
+Si une cellule n’est pas bleu clair, vous ne devez pas y toucher.
+Elle contient généralement une formule ou un calcul automatique, et elle est souvent protégée par mot de passe pour éviter toute erreur ou suppression accidentelle.
+
+Respecter ce code couleur garantit la fiabilité des résultats.
+
 0. **Activer les macros** à l’ouverture du fichier Excel. *Utile mais pas nécessaire pour l'utilisation*.
 1. Pour le **bureau centralisateur**, avant le début du scrutin:
    - Ouvrir l'onglet *Synthèse*
