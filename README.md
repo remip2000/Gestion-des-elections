@@ -26,8 +26,9 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
 - **Feuille "Projection"** :
   - Conçue pour présenter en direct au public des données clées
   - Taux de participation pendant la journée
+  - Suivi en direct du taux de participation
+    ![Aperçu de la feuille Projection](./Images/Projection%20Participation.png)
   - Suivi en direct du dépouillement
-    
     ![Aperçu de la feuille Projection](./Images/Projection%20Dépouillement.png)
     
 - **Feuilles par bureau** (`Bureau 1`, `Bureau 2`, ..., `Bureau 12`) pour saisir :
@@ -69,12 +70,13 @@ Le tableur est conçu pour que chaque bureau de vote ouvre ce même fichier et y
    - Ouvrir l'onglet *Synthèse*
    - Renseigner les données de l'élection (noms des bureaux, nombre d'inscrits, date, élection, ville)
    - Renseigner le nom des candidats et leur couleur associée.
+   - Utiliser les macros pour générer tous les bureaux et harmoniser les couleurs
 2. Pour **chaque bureau de vote** :
    - Ouvrir l’onglet correspondant (ex: *Bureau 5*)
    - Pendant la journée du vote, renseigner les données de **participation horaire** à droite de la feuille
    - Au dépouillement, remplir les cases avec les résultats au fur et à mesure des enveloppes de centaines de bulletins dépouillés
-3. Pendant la journée, visualiser la progression de la participation dans *Participation horaire*.
-4. **Suivre le dépouillement en temps réel** dans l’onglet *Projection*. Toutes les données des bureaux sont centralisées dans *Synthèse* mais la version simplifiée dans *Projection* est plus lisible et conçue pour être projetée sur écran.
+3. Pendant la journée, visualiser la progression de la participation **en direct** dans *Participation horaire* et dans *Projection* pour le public
+4. **Suivre le dépouillement en temps réel** dans l’onglet *Projection*. Conçue pour être projetée sur écran, cette feuille peut être affichée dans une fenêtre séparée tout en continuant d'entrer les valeurs au fur et à mesure du dépouillement.
 
 ### 🗳️ Dépouillement : deux méthodes possibles
 
