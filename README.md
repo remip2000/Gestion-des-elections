@@ -25,11 +25,10 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
 
 - **Feuille "Projection"** :
   - Conçue pour présenter en direct au public des données clées
-  - Taux de participation pendant la journée
   - Suivi en direct du taux de participation
-    ![Aperçu de la feuille Projection](./Images/Projection%20Participation.png)
+    ![Aperçu de la feuille Projection : participation](./Images/Projection%20Participation.png)
   - Suivi en direct du dépouillement
-    ![Aperçu de la feuille Projection](./Images/Projection%20Dépouillement.png)
+    ![Aperçu de la feuille Projection : dépouillement](./Images/Projection%20Dépouillement.png)
     
 - **Feuilles par bureau** (`Bureau 1`, `Bureau 2`, ..., `Bureau 12`) pour saisir :
   - Le suivi de la participation heure par heure
