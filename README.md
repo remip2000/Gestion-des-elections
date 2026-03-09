@@ -1,8 +1,10 @@
-<img src="./Images/Logo2.png" alt="Logo du projet" width="200">
+&nbsp;
 
-# 🗳️ Tableur de Suivi des élections
+# 🗳️ Tableur de Suivi des Élections Municipales à Cogolin
 
-Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centraliser les résultats d'une élection municipale à Cogolin (Var)**, bureau par bureau. Il facilite le **dépouillement, la saisie, l’analyse des résultats** et le **suivi de la participation horaire**.
+Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centraliser les résultats d'une élection municipale à Cogolin (Var)**, bureau par bureau. Il facilite le **dépouillement, la saisie, l’analyse des résultats** et le **suivi de la participation horaire**, et intègre désormais une **fonctionnalité de simulation réaliste des suffrages**.
+
+---
 
 ## 📁 Fichiers
 
@@ -20,39 +22,42 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
   - Agrégation automatique des résultats de tous les bureaux
   - Calculs de participation, taux d’abstention, votes exprimés
   - Vérifications des totaux
-    
-    ![Aperçu de la feuille Synthèse](./Images/Capture%20d’écran%20Synthèse.png)
-
 - **Feuille "Projection"** :
-  - Conçue pour présenter en direct au public des données clées
-  - Suivi en direct du taux de participation
-    ![Aperçu de la feuille Projection : participation](./Images/Projection%20Participation.png)
-  - Suivi en direct du dépouillement
-    ![Aperçu de la feuille Projection : dépouillement](./Images/Projection%20Dépouillement.png)
-    
+  - Présentation en direct au public des données clés
+  - Suivi en direct du taux de participation et du dépouillement
 - **Feuilles par bureau** (`Bureau 1`, `Bureau 2`, ..., `Bureau 12`) pour saisir :
   - Le suivi de la participation heure par heure
   - Le dépouillement des bulletins
-    
-  ![Aperçu de la feuille Bureau](./Images/Capture%20d’écran%20Bureau%20exemple.png)
-
 - **Feuille "Participation horaire"** :
   - Suivi de la participation par tranche horaire dans chaque bureau
   - Calcul des pourcentages de participation cumulée
-  - Comparaison possible avec le tour précdent
-    
-    ![Aperçu de la feuille Participation horaire](./Images/Capture%20d’écran%20Participation%20horaire.png)
-    
-- **Macros intégrées facultatives** (nécessite l’activation) Automatisations pour l'instanciation initiale du fichier :
+  - Comparaison possible avec le tour précédent
+- **Macros intégrées** (optionnelles - nécessitent l’activation) :
   - Générer les 12 bureaux sur le modèle de `Bureau 0`
   - Répliquer la couleur des candidats dans tous les graphiques
   - Importer les données de participation horaire du premier tour
+  - Simuler une journée de vote et un dépouillement réaliste :
+    - Simulation de la participation horaire de chaque bureau
+    - Simulation des suffrages avec répartition réaliste des voix entre candidats
+
+---
+
+## 🎲 Simulation des suffrages
+
+Le bouton `Simuler dépouillement` dans l'onglet `Synthèse` permet de simuler des résultats de vote réalistes.
+
+De même, le bouton `Simuler participation journée` dans l'onglet `Participation horaire` permet de simuler une affluence réaliste dans les bureaux de vote.
+
+Cette fonctionnalité est idéale pour :
+
+- Tester le bon fonctionnement du tableur avant le jour J.
+- Former les équipes à prendre en main le tableur.
 
 ---
 
 ## 🔒 Protection des feuilles
 
-L'utilisateur __ne peut et ne doit__ modifier que les cases 🟦 **bleu clair** 🟦. Toutes les cases ⬜ **gris clair** ⬜ sont calculées automatiquement. Si vous voulez adapter le fichier, le mot de passe de protection de chaque feuille est `toto`.
+L'utilisateur **ne peut et ne doit** modifier que les cases 🟦 **bleu clair** 🟦. Toutes les cases ⬜ **gris clair** ⬜ sont calculées automatiquement. Le mot de passe de protection de chaque feuille est `toto`.
 
 ---
 
@@ -62,48 +67,22 @@ Le tableur est conçu pour que chaque bureau de vote ouvre ce même fichier et y
 
 ![Architecture réseau](./Images/archi-reseau.png)
 
+---
+
 ## 🧑‍💻 Utilisation
 
 ⚠️ Règle d’or : **seules les cellules bleu clair sont modifiables**
 🔵 Bleu clair = vous pouvez saisir des données.
 
-Si une cellule n’est pas bleu clair, vous ne devez pas y toucher.
-Elle contient généralement une formule ou un calcul automatique, et elle est souvent protégée par mot de passe pour éviter toute erreur ou suppression accidentelle.
-
-Respecter ce code couleur garantit la fiabilité des résultats.
-
-0. **Activer les macros** à l’ouverture du fichier Excel. *Utile mais pas nécessaire pour l'utilisation*.
-1. Pour le **bureau centralisateur**, avant le début du scrutin:
-   - Ouvrir l'onglet *Synthèse*
-   - Renseigner les données de l'élection (noms des bureaux, nombre d'inscrits, date, élection, ville)
-   - Renseigner le nom des candidats et leur couleur associée.
-   - Utiliser les macros pour générer tous les bureaux et harmoniser les couleurs
-2. Pour **chaque bureau de vote** :
-   - Ouvrir l’onglet correspondant (ex: *Bureau 5*)
-   - Pendant la journée du vote, renseigner les données de **participation horaire** à droite de la feuille
-   - Au dépouillement, remplir les cases avec les résultats au fur et à mesure des enveloppes de centaines de bulletins dépouillés
-3. Pendant la journée, visualiser la progression de la participation **en direct** dans *Participation horaire* et dans *Projection* pour le public
-4. **Suivre le dépouillement en temps réel** dans l’onglet *Projection*. Conçue pour être projetée sur écran, cette feuille peut être affichée dans une fenêtre séparée tout en continuant d'entrer les valeurs au fur et à mesure du dépouillement.
-
-### 🗳️ Dépouillement : deux méthodes possibles
-
-On propose deux versions de la feuille de dépouillement à imprimer en A3 portrait pour aider les scrutateurs à compter les bulletins. Chaque table de dépouillement remplit sa feuille en deux exemplaires (deux scrutateurs par table). Chaque bureau remplit ses résultats de dépouillement dans son onglet (ex: *Bureau 5*), deux méthodes s'offrent à lui :
-
-1. **Décompte absolu** (préféré) : On remplit le tableau **en dessous** du graphique, table par table. Les scores (absolus) des candidats sont croissants d'enveloppe (de centaine) en enveloppe et le calcul des scores par centaines (relatif) se fait automatiquement dans le tableau du haut. Ce mode évite aux scrutateurs d'avoir à faire des calculs à chaque centaine. La somme est cumulative de centaine en centaine, c'est à dire qu'on ajoute le score de la centaine précédente à celui de la centaine actuelle.
-
-![Aperçu de la feuille de dépouillement](./Images/Capture%20d’écran%20feuille%20dépouillement%20exemple%20absolu.png)
-![Tableau du bas](./Images/Exemple-dépouillement-absolu.png)
-
-2. **Décompte relatif** : On remplit le tableau **au dessus** directement. On entre les scores qui sont relatifs à la centaine dépouillée. La somme de chaque centaine doit être égale à 100 et on repart à 0 à chaque nouvelle centaine.
-
-![Aperçu de la feuille de dépouillement](./Images/Capture%20d’écran%20feuille%20dépouillement%20exemple%20relatif.png)
-![Tableau du haut](./Images/Exemple-dépouillement-relatif.png)
-
----
-
-## 📊 Exemple
-
-L’onglet `Exemple` montre comment renseigner les données pour un bureau fictif avec des votes pour 10 candidats, ainsi que la progression horaire. Les feuilles de dépouillement d'exemple sont ausi fournies.
+0. (optionnel) **Activer les macros** à l’ouverture du fichier Excel.
+1. Pour le **bureau centralisateur** et avant le début du scrutin :
+  - Renseigner les données de l'élection (noms des bureaux, nombre d'inscrits, date, élection, ville).
+  - Renseigner le nom des candidats et leur couleur associée.
+  - Utiliser les macros (boutons) pour générer tous les bureaux et harmoniser les couleurs.
+2. Placer le tableur ainsi initialisé sur un partage réseau éditable à plusieurs
+3. Pour **chaque bureau de vote** et dans son onglet respectif:
+  - Renseigner les données de **participation horaire** pendant la journée.
+  - Remplir les résultats du dépouillement au fur et à mesure.
 
 ---
 
@@ -112,16 +91,15 @@ L’onglet `Exemple` montre comment renseigner les données pour un bureau ficti
 - Centralisation rapide et fiable des données
 - Vérifications automatiques des totaux
 - Aide à la transparence lors du dépouillement
-- Lecture facile des résultats par tous les scrutateurs
+- Simulation réaliste pour tester le tableur
 
 ---
 
 ## 📌 À savoir
 
-- Ce classeur a été développé pour une élection municipale mais peut être adapté à d'autres scrutins.
-- Les noms des candidats peuvent être modifiés directement dans la feuille synthèse et seront automatiquement recopiés partout.
-- Les noms des bureaux de vote également.
-- Ce tableur inclut une protection par mot de passe dans certaines feuilles pour éviter les erreurs de saisie (mdp par défaut = `toto`).
+- Ce classeur peut être adapté à d'autres scrutins.
+- Les noms des candidats et des bureaux peuvent être modifiés directement dans la feuille synthèse.
+- Le mot de passe par défaut pour les feuilles protégées est `toto`.
 
 ---
 
@@ -133,22 +111,9 @@ Ce projet est sous licence **GNU General Public License v3.0** – voir le fichi
 
 ## 🔮 Évolutions à venir
 
-Des améliorations futures sont envisagées pour rendre ce tableur encore plus flexible, sécurisé et complet :
-
-- 🔢 **Gestion dynamique du nombre de bureaux**  
-  Permettre à l’utilisateur de choisir combien de bureaux seront créés.
-
-- 🔒 **Protection renforcée entre les bureaux**  
-  Empêcher les agents d’un bureau de modifier les résultats d’un autre bureau (par mot de passe, ou séparation par fichier).
-
-- 🖨️ **Export automatique d’un récapitulatif PDF**  
-  Générer un document lisible et clair pour affichage en mairie ou en salle des résultats.
-
-- 🧪 **Mode test/simulation**  
-  Intégrer un mode de démonstration pour simuler des élections fictives avec des résultats aléatoires.
-
-- 📈 **Analyse comparative avec les précédentes élections**  
-  Compléter la macro permettant de comparer les taux de participation par l'ajout des résultats des scrutins passés.
+- **Gestion dynamique du nombre de bureaux**
+- **Protection renforcée entre les bureaux**
+- **Export automatique d’un récapitulatif PDF**
+- **Analyse comparative avec les précédentes élections**
 
 Contributions et suggestions bienvenues via issues ou pull requests ! 🙂
-
