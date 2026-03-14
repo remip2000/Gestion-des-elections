@@ -32,6 +32,8 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
   - Suivi de la participation par tranche horaire dans chaque bureau
   - Calcul des pourcentages de participation cumulée
   - Comparaison possible avec le tour précédent
+- **Feuille de décompte** :
+  - Permet de calculer les résultats par centaines à la main si le tableur n'est pas déployé dans chaque bureau
 - **Macros intégrées** (optionnelles - nécessitent l’activation) :
   - Générer les 12 bureaux sur le modèle de `Bureau 0`
   - Répliquer la couleur des candidats dans tous les graphiques
@@ -111,7 +113,6 @@ Ce projet est sous licence **GNU General Public License v3.0** – voir le fichi
 
 ## 🔮 Évolutions à venir
 
-- **Gestion dynamique du nombre de bureaux**
 - **Protection renforcée entre les bureaux**
 - **Export automatique d’un récapitulatif PDF**
 - **Analyse comparative avec les précédentes élections**
