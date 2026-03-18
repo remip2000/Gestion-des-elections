@@ -34,6 +34,8 @@ Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centralis
   - Comparaison possible avec le tour précédent
 - **Feuille de décompte** :
   - Permet de calculer les résultats par centaines à la main si le tableur n'est pas déployé dans chaque bureau
+- **Feuille de calcul des sièges**
+  - Permet de calculer les sièges aux conseils municipaux et communautaires
 - **Macros intégrées** (optionnelles - nécessitent l’activation) :
   - Générer les 12 bureaux sur le modèle de `Bureau 0`
   - Répliquer la couleur des candidats dans tous les graphiques
