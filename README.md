@@ -60,6 +60,20 @@ Cette fonctionnalité est idéale pour :
 
 ---
 
+## 📊 Projection à la population
+
+La feuille `Projection` permet d'afficher en temps réel devant la population : 
+
+- La participation durant la journée
+
+![Participation](./Images/Projection%20Participation.png)
+
+- L'évolution des résultats au fur et à mesure du dépouillement
+
+![Dépouillement](./Images/Projection%20Dépouillement.png)
+
+---
+
 ## 🔒 Protection des feuilles
 
 L'utilisateur **ne peut et ne doit** modifier que les cases 🟦 **bleu clair** 🟦. Toutes les cases ⬜ **gris clair** ⬜ sont calculées automatiquement. Le mot de passe de protection de chaque feuille est `toto`.
