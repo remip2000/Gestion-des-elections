@@ -3,6 +3,7 @@
 # 🗳️ Tableur de Suivi des Élections Municipales à Cogolin
 
 Ce classeur Excel (avec macros) est conçu pour **organiser, suivre et centraliser les résultats d'une élection municipale à Cogolin (Var)**, bureau par bureau. Il facilite le **dépouillement, la saisie, l’analyse des résultats** et le **suivi de la participation horaire**, et intègre désormais une **fonctionnalité de simulation réaliste des suffrages**.
+Il est facilement adaptable pour toute autre commune de plus de 1000 habitants.
 
 ---
 
